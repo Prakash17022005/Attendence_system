@@ -8,7 +8,7 @@ import winsound
 import csv
 
 #File path
-user_file="users.csv"
+user_file="images/users.csv"
 file_name="attendance.xlsx"
 
 # Load known faces Known face encodings and details 

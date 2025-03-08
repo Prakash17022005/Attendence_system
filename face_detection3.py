@@ -14,19 +14,19 @@ known_roll_numbers = {}
 marked_attendance = {}
 
 # Load known faces
-image_1 = face_recognition.load_image_file("prakash_img.jpg")
+image_1 = face_recognition.load_image_file("images/prakash_img.jpg")
 encoding_1 = face_recognition.face_encodings(image_1)[0]
 known_face_encodings.append(encoding_1)
 known_face_names.append("Prakash")
 known_roll_numbers["Prakash"] = "101"
 
-image_2 = face_recognition.load_image_file("joycy_img.jpg")
+image_2 = face_recognition.load_image_file("images/joycy_img.jpg")
 encoding_2 = face_recognition.face_encodings(image_2)[0]
 known_face_encodings.append(encoding_2)
 known_face_names.append("Mary")
 known_roll_numbers["Mary"] = "102"
 
-image_3 = face_recognition.load_image_file("kolass_img.jpg")
+image_3 = face_recognition.load_image_file("images/kolass_img.jpg")
 encoding_3 = face_recognition.face_encodings(image_3)[0]
 known_face_encodings.append(encoding_3)
 known_face_names.append("Kolass")
